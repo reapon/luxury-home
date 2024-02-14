@@ -727,7 +727,7 @@ section {
 
 .testimonials .testimonial-item {
   box-sizing: content-box;
-  min-height: 320px;
+  min-height: 165px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1588,6 +1588,15 @@ section {
   }
 }
 
+@media (max-width: 1024px) {
+  .image-right {
+    text-align: center !important;
+  }
+  .service-img-style {
+    height: 250px !important;
+  }
+}
+
 .image-right {
   text-align: right;
 }
@@ -1722,4 +1731,49 @@ li {
 .mission-paragraph {
   font-size: 14px;
   line-height: 1.9;
+}
+
+.clients-name {
+  text-align: center;
+  font-weight: 700;
+  color: #012970;
+  font-size: 14px;
+}
+
+.client-img-new {
+  height: 100px !important;
+  width: 50%;
+}
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.swiper-slide img {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.swiper-slide img:hover {
+  opacity: 1;
+}
+
+.clients .clients-slider .swiper-pagination {
+  margin-top: 5px;
+  position: relative;
+}
+
+.clients .clients-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #4154f1;
+}
+
+.clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #4154f1;
+}
+
+.card-img {
+  height: 250px;
 }
