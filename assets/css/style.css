@@ -1777,3 +1777,18 @@ li {
 .card-img {
   height: 250px;
 }
+
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  background: #333;
+  padding: 8px 20px;
+  margin-left: 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #1bac91;
+}
